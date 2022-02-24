@@ -1,0 +1,10 @@
+Create Table DSjobs (
+	Title VARCHAR(50),
+	Short_Description VARCHAR(300),
+	Salary VARCHAR(100),
+	Location VARCHAR (50),
+	Company VARCHAR (100)
+)
+
+SELECT title, short_description, salary, location, company
+	FROM public.dsjobs;
